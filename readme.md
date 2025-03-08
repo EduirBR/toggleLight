@@ -10,3 +10,11 @@ usefull for ubuntu users who has rgb keyboards that turn on/off with the scroll 
 there its the build, and code to build by yourself
 
 Go.
+
+## make the build
+
+`go build -o key_light main.go`
+
+## move the file to bin
+
+`sudo mv key_light /usr/local/bin/`
